@@ -70,7 +70,5 @@ def delete_book(isbn: str):
 
 
 if __name__ == "__main__":
-    uvicorn.run("library_system":app, host="127.0.0.1", port=8000, reload=True)
-
-
+    uvicorn.run("library_system:app", host="127.0.0.1", port=8000, reload=True)
 
